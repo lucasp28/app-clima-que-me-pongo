@@ -55,19 +55,22 @@ python main.py
 
 ---
 
-## Estructura del proyecto
+# Estructura del proyecto
 
+```
 app-clima-que-me-pongo/
-├── main.py                # Archivo principal
-├── config.py              # Configuración y API Key (no subir a GitHub, crear config_example.py)
-├── models/                # Clases de datos
+├── main.py                   # Archivo principal
+├── config.py                 # Configuración y API Key (no subir a GitHub, crear config_example.py)
+├── models/                   # Clases de datos
 │   └── weather.py
-├── services/              # Servicio que consulta la API
+├── services/                 # Servicio que consulta la API
 │   └── weather_service.py
-├── logic/                 # Lógica de recomendación de ropa
+├── logic/                    # Lógica de recomendación de ropa
 │   └── clothing_advisor.py
-├── requirements.txt       # Librerías necesarias
-└── README.md              # Este archivo
+├── requirements.txt          # Librerías necesarias
+└── README.md                 # Este archivo
+```
+
 
 
 
